@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>New Project</title>
+</head>
+<body>
+<!-- multistep form -->
+<form id="msform">
+    <!-- progressbar -->
+    <ul id="progressbar">
+      <li class="active">Campos Basicos</li>
+      <li>Campos</li>
+    </ul>
+    <!-- fieldsets -->
+    <fieldset>
+      <h2 class="fs-title">Crie Seu Projetos</h2>
+      <h3 class="fs-subtitle">Esse é o passo 1</h3>
+      <input type="text" name="Name-Project" placeholder="Nome Do Projeto" />
+      <input type="text" placeholder="Empresa Contratante:" />
+      <input type="text" placeholder="Prazo:" />
+      <input type="button" name="next" class="next action-button" value="Next" />
+    </fieldset>
+    <fieldset>
+      <h2 class="fs-title">Algum texto</h2>
+      <h3 class="fs-subtitle">Algum texto</h3>
+      <input type="text"  placeholder="Colaboradores" />
+      <input type="text"  placeholder="Informação do projeto" />
+      <input type="button" name="previous" class="previous action-button" value="Previous" />
+      <a class="submit action-button" target="_top">Criar</a>
+    </fieldset>
+  </form>
+  <script src="./index.js"></script>
+</body>
+</html>
